@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Shade/Desktop/projects/FloatingWindow1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Floating Window</string>
+    <string name="switch_to_full">Switch to Full Screen!</string>
+    <string name="switch_to_window">Switch to Window!</string>
+    <!-- From: file:/C:/Users/Shade/Desktop/projects/FloatingWindow1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/activity_slide_down</item>
+    </style>
+    <style name="Theme.FloatingWindow.Popup" parent="@android:style/Theme.Holo.Light">
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopupAnimation</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+</resources>
